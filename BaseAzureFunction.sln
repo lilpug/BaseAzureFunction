@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseAzureFunction", "src\BaseAzureFunction\BaseAzureFunction.csproj", "{CB6A3202-C796-41AB-A0FE-179E40CD1382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseAzureFunction.Business", "src\BaseAzureFunction.Business\BaseAzureFunction.Business.csproj", "{D42A67F7-3ED9-44F0-8FD2-511E2101E3E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseAzureFunction.Data", "src\BaseAzureFunction.Data\BaseAzureFunction.Data.csproj", "{35FED356-A0D6-418C-9E4D-B996562D6EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseAzureFunction.UnitTests", "test\BaseAzureFunction.UnitTests\BaseAzureFunction.UnitTests.csproj", "{EA1A6784-6CEF-4050-911D-3D674D52E265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB6A3202-C796-41AB-A0FE-179E40CD1382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB6A3202-C796-41AB-A0FE-179E40CD1382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB6A3202-C796-41AB-A0FE-179E40CD1382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB6A3202-C796-41AB-A0FE-179E40CD1382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42A67F7-3ED9-44F0-8FD2-511E2101E3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42A67F7-3ED9-44F0-8FD2-511E2101E3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42A67F7-3ED9-44F0-8FD2-511E2101E3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42A67F7-3ED9-44F0-8FD2-511E2101E3E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35FED356-A0D6-418C-9E4D-B996562D6EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FED356-A0D6-418C-9E4D-B996562D6EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FED356-A0D6-418C-9E4D-B996562D6EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FED356-A0D6-418C-9E4D-B996562D6EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1A6784-6CEF-4050-911D-3D674D52E265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1A6784-6CEF-4050-911D-3D674D52E265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1A6784-6CEF-4050-911D-3D674D52E265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1A6784-6CEF-4050-911D-3D674D52E265}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
